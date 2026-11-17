@@ -2,6 +2,9 @@
 
 This through-hole adapter accepts YPbPr component, S-Video, or composite video and connects them to a compatible Extron HD15 input. The Y (luma) or composite signal goes to the HD15 green channel. An LM1881 also extracts sync from that signal and sends it to HD15 pin 13, allowing the Extron device to detect the source and switch to it automatically.
 
+
+# ONLY MEANT FOR 15KHZ! (e.g 240p, 480i)
+
 The board also brings stereo RCA audio to a 3.5 mm jack. USB-C supplies 5 V for the sync separator and power indicator.
 
 ![PCB1 layout preview from EasyEDA](docs/images/pcb1-preview.webp)
